@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grupo1">
+        <item
+            android:id="@+id/mHome"
+            android:checked="true"
+            android:title="Favorito" />
+        <item
+            android:id="@+id/mPersona"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/mFind"
+            android:title="Compartilha" />
+
+    </group>
+
+    <group
+        android:id="@+id/grupo2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mFav"
+            android:checked="true"
+            android:title="Favorito" />
+        <item
+            android:id="@+id/mSec"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/mShe"
+            android:title="Compartilha" />
+    </group>
+
+
+</menu>
